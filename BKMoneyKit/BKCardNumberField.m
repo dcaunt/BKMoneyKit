@@ -128,15 +128,15 @@
             imageView.autoresizingMask = UIViewAutoresizingFlexibleHeight;
             imageView.contentMode = UIViewContentModeCenter;
             
-            self.leftView = imageView;
-            self.leftViewMode = UITextFieldViewModeAlways;
+            self.rightView = imageView;
+            self.rightViewMode = UITextFieldViewModeAlways;
             
             self.cardLogoImageView = imageView;
             
             [self updateCardLogoImage];
             
         } else {
-            self.leftView = nil;
+            self.rightView = nil;
         }
     }
 }

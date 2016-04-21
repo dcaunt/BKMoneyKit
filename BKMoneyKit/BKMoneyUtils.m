@@ -35,9 +35,9 @@
         }
     }
     
-    if (nil == cardLogoImage) {
-        cardLogoImage = [self imageNamed:@"BKMoneyKit.bundle/CardLogo/default@2x"];
-    }
+//    if (nil == cardLogoImage) {
+//       cardLogoImage = [self imageNamed:@"BKMoneyKit.bundle/CardLogo/default@2x"];
+//    }
     
     return cardLogoImage;
 }
